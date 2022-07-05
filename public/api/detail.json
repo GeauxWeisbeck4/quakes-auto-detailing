@@ -1,0 +1,40 @@
+{
+  "data": [
+    {
+      "type": "detail",
+      "id": "just-a-lil-cleanin",
+      "attributes": {
+        "title": "Just a Lil Cleanin",
+        "who": "No wax, light or moderately soiled",
+        "plus": "Door jambs, gas cap, wheels polished, air freshener",
+        "includes": "Body, wheels, window, interior cleaning",
+        "price": "$200",
+        "image": "../assets/images/duringwash.jpeg"
+      }
+    },
+    {
+      "type": "detail",
+      "id": "add-some-wax",
+      "attributes": {
+        "title": "Add Some Wax",
+        "who": "Light or moderately dirty but needs waxed",
+        "plus": "Inside wheel surfaces, emblems, carpet & seat spots, and leather cleaned",
+        "includes": "Everything included in 'Just a Lil Cleanin' and hand wax",
+        "price": "$300",
+        "image": "../assets/images/detailing.png"
+      }
+    },
+    {
+      "type": "detail",
+      "id": "the-gran-daddy",
+      "attributes": {
+        "title": "The Gran Daddy",
+        "who": "Heavily soiled or no detail in a while",
+        "plus": "Chemical removal of contaminants, carpet, seat spots, and leather",
+        "includes": "Everything from 'Add Some Wax', engine bay and clay bar",
+        "price": "$600",
+        "image": "../assets/images/blackcardone.jpeg"
+      }
+    }
+  ]
+}

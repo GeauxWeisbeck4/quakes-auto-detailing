@@ -1,0 +1,20 @@
+<article class="rental">
+  <Detail::Image
+    src={{@detail.image}} alt="A picture of {{@detail.title}}"
+  />
+  <div class="details">
+    <h3>{{@detail.title}}</h3>
+    <div class="detail owner">
+      <span>Who:</span> {{@detail.who}}
+    </div>
+    <div class="detail type">
+      <span>Includes:</span>{{@detail.includes}}
+    </div>
+    <div class="detail location">
+      <span>Plus:</span>{{@detail.plus}}
+    </div>
+    <div class="detail bedrooms">
+      <span>Price:</span>{{@detail.price}}
+    </div>
+  </div>
+</article>

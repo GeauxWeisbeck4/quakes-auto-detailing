@@ -1,0 +1,18 @@
+<Jumbo>
+  <h2>We're All About the Details!</h2>
+  <p>Our experience and passion makes us the go to auto-detailing company in Austin, Texas.
+  <br />
+  We love making your vehicle look better than the day you drove it off the lot!</p>
+  <LinkTo @route="about" class="button">About Us</LinkTo>
+</Jumbo>
+
+<div class="rentals">
+  <ul class="results">
+    <li></li>
+    <li></li>
+    <li></li>
+    {{#each @model as |detail|}}
+      <li><Detail @detail={{detail}} /></li>
+    {{/each}}
+  </ul>
+</div>

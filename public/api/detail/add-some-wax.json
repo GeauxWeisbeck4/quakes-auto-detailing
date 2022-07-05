@@ -1,0 +1,15 @@
+{
+  "data": {
+    "type": "detail",
+    "id": "add-some-wax",
+    "attributes": {
+      "title": "Add Some Wax",
+      "who": "Light or moderately dirty but needs waxed",
+      "plus": "Inside wheel surfaces, emblems, carpet & seat spots, and leather cleaned",
+      "includes": "Everything included in 'Just a Lil Cleanin' and hand wax",
+      "category": "Wax",
+      "price": "$300",
+      "image": "../assets/images/detailing.png"
+    }
+  }
+}

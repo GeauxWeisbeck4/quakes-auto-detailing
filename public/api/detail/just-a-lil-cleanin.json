@@ -1,0 +1,15 @@
+{
+  "data": {
+    "type": "detail",
+    "id": "just-a-lil-cleanin",
+    "attributes": {
+      "title": "Just a Lil Cleanin",
+      "who": "No wax, light or moderately soiled",
+      "plus": "Door jambs, gas cap, wheels polished, air freshener",
+      "includes": "Body, wheels, window, interior cleaning",
+      "category": "NoWax",
+      "price": "$200",
+      "image": "../assets/images/duringwash.jpeg"
+    }
+  }
+}
