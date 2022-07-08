@@ -68,7 +68,7 @@ p {
  */
 
 .container {
-  max-width: 1048px;
+  max-width: 1500px;
   min-height: 100vh;
   background: #f9f9f9;
   margin: 0 auto;
@@ -479,7 +479,7 @@ p {
   padding: 10 px;
 }
 
-.cardhead {
+.cardheader {
   padding-top: 30px;
   padding-bottom: 50px;
 }
@@ -488,3 +488,32 @@ p {
   padding-top: 30px;
 }
 
+.post, .post:hover{
+  display: block;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding-top: 50px;
+}
+
+.post .blog-title {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+.post .blog-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.post .blogcontent {
+  width: 75%
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.post .blog-title .author {
+  font-size: 1.2rem;
+  padding-bottom: 10px;
+}

@@ -1,0 +1,17 @@
+<article class="post rental">
+  <div class="blog-title">
+    <h1>
+      {{@article.title}}
+    </h1>
+    <h3>{{@article.date}}</h3>
+    <p class="author"><strong>{{@article.author}}</strong></p>
+  </div>
+  <div class="blog-image">
+    <img src={{@article.image}} alt="A picture of {{@article.title}}" />
+  </div>
+  <div class="blog-content">
+    <p>
+      {{@article.content}}
+    </p>
+  </div>
+</article>

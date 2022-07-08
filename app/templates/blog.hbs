@@ -1,0 +1,15 @@
+<div class="jumbo">
+<div class="right quakes"></div>
+  <h2>Blog</h2>
+  <p>
+    Follow the "Attention to the Details" blog to get the latest Quake's Auto Detail news, tips for taking care of your vehicle, and learn more about how we give your vehicle that special shine that all your neighbors are jealous of. We post weekly updates on our blog, so check back often to see what's new!
+  </p>
+  <ul class="results">
+    <li></li>
+    <li></li>
+    <li></li>
+      {{#each @model as |article|}}
+    <li><Article @article={{article}} /></li>
+  {{/each}}
+  </ul>
+</div>
