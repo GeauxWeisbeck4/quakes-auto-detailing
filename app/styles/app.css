@@ -81,7 +81,7 @@ p {
   height: 4em;
   background-color: #677ae4;
   background-color: #05526A;
-  background-color: #e46855;
+  background-color: #000;
 }
 
 .menu h1 {
@@ -466,3 +466,24 @@ p {
   height: 1px; width: 1px;
   margin: -1px; padding: 0; border: 0;
 }
+
+.card-list {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.escard {
+  padding: 10 px;
+}
+
+.cardhead {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.service {
+  padding-top: 30px;
+}
+
